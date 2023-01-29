@@ -1,0 +1,192 @@
+{
+  "basics": {
+    "name": "MUHAMMAD UMAIR KHAN",
+    "label": "Automation Engineer", 
+
+    "x_title": "Leading the Industry with Innovative Automation Solutions",
+    "summary": "Expertly designing and implementing automated solutions for optimal efficiency and productivity. Continuously pushing boundaries with the latest technology and industry trends.",
+    "location": {
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "region": "Karachi"
+    },
+    "profiles": [
+      {
+        "network": "Stack Overflow",
+        "username": "muhammad-umair-khan",
+        "url": "https://stackoverflow.com/users/20954212/muhammad-umair-khan",
+        "x_icon": "fab fa-stack-overflow fa-2x"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mumairkhan13",
+        "url": "https://www.linkedin.com/in/mumairkhan13/",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "UmairKhan13",
+        "url": "https://github.com/UmairKhan13",
+        "x_icon": "fab fa-2x fa-github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Astera Software",
+      "position": "Software Engineer - Test",
+      "website": "https://www.astera.com/",
+      "startDate": "2022-05-10",
+      "endDate": "",
+      "summary": "Implemented IRawFragment Provider in the backend using .NET Core and built a Test Automation Framework for Desktop Automation using Appium, C# & Microsoft WinAppDriver. Automated smoke and regression cases of a web-based application using Playwright and integrated CI/CD. Led the QA Automation team and monitored task assignments, while participating in resource hiring.",
+      "highlights": []
+    },
+    {
+      "company": "Retrocausal.ai",
+      "position": "Automation Engineer",
+      "website": "https://retrocausal.ai/",
+      "startDate": "2022-02-20",
+      "endDate": "2022-05-10",
+      "summary": "Analyzed business requirements and functional design specifications to ensure all needs were met. Performed manual testing and automated the smoke tests of a web-based application using Selenium Web driver and Python. My automation efforts not only helped to check the high-level functional stability of the application, but also streamlined the regression process with CI/CD, reducing company resources and increasing confidence in release patches for a web-based application..",
+      "highlights": []
+    },
+    {
+      "company": "DepChip",
+      "position": "Assosiate Software Engineer",
+      "website": "https://depchip.com/",
+      "startDate": "2021-06-15",
+      "endDate": "2020-10-10",
+      "summary": "Developed and maintained web applications using HTML, CSS, and JavaScript. Worked closely with UX/UI designers to implement responsive designs and improve user experience. Built reusable and scalable components for the front-end. Utilized JavaScript frameworks such as React and AngularJS to build dynamic user interfaces. Implemented cross-browser compatibility and ensured optimal performance of web applications.",
+      "highlights": []
+    },
+    {
+      "company": "MATZ Solutions",
+      "position": "Junior Software Engineer",
+      "website": "https://matzsolutions.com/",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "summary": "Developed and maintained native Android applications using Java and Android Studio. Utilized XML for designing user interface, layouts and animations. Implemented various Android libraries and APIs to enhance the functionality of the application. Collaborated with cross-functional teams to develop and implement innovative solutions for user experience. Worked closely with designers to create custom user interfaces and animations to meet client requirements.",
+      "highlights": []
+    },
+    {
+      "company": "Afiniti",
+      "position": "Software Quality Assurance - Intern",
+      "website": "https://www.afiniti.com/",
+      "startDate": "2020-08-16",
+      "endDate": "",
+      "summary": "Conducted manual testing of various applications to ensure functionality and compatibility. Performed black box and white box testing to validate the system against user requirements. Discovered and reported software bugs and issues, and collaborated with development team to ensure resolution. Documented and maintained test plans, test cases, and bug reports. Contributed to the development of testing strategies and techniques to improve overall quality assurance processes.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "FAST NUCES",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2018-08-01",
+      "endDate": "2022-06-10",
+      "courses": [
+        "Object Oriented Programming",
+        "Database Management Systems",
+        "Operating systems and computers architectures",
+        "Requirements Engineering"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "AWS",
+      "x_icon": "fa-brands fa-aws",
+      "x_description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others."
+    },
+    {
+      "name": "Selenium",
+      "x_icon": "fa-code",
+      "x_description": "Streamlining application testing through the use of Selenium."
+    },
+    {
+      "name": "Playwright",
+      "x_icon": "fa-pencil",
+      "x_description": " Elevating Web Application Testing with Cutting-Edge Automation Technology Playwright."
+    },
+    {
+      "name": "CI/CD",
+      "x_icon": "fa-infinity",
+      "x_description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI."
+    },
+    {
+      "name": "Python",
+      "x_icon": "fa-brands fa-python",
+      "x_description": "Writting deployment tools and scripts, and automating all possible tasks and test cases with Python."
+    },
+    {
+      "name": "J-Meter",
+      "x_icon": "fa-chart-line",
+      "x_description": "Ensuring Optimal User Experience with J-Meter Load Testing."
+    },
+    {
+      "name": "Cypress.io",
+      "x_icon": "fa-bolt",
+      "x_description": "Revolutionizing End-to-End Web Testing with Innovative Approach using Cypress."
+    },
+    {
+      "name": "Containers",
+      "x_icon": "fa-brands fa-docker",
+      "x_description": "Delivering and distributing applications and tools with Docker, docker-compose and kubernetes."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Urdu",
+      "fluency": "Native speaker"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Aviatrix Multicloud Network Associate",
+      "issuer": "Aviatrix",
+      "url": "https://www.credly.com/badges/3e8d29ad-f57b-4725-a9e8-399d4055d88e/public_url",
+      "x_badgeId": "3e8d29ad-f57b-4725-a9e8-399d4055d88e",
+      "x_imageId": "87eec792-3c63-4526-aafb-da866a30fa54",
+      "x_imageName": "image.png"
+    },
+    {
+      "name": "Scrum Foundation Professional Certificate - SFPC™",
+      "issuer": "CertiProf",
+      "url": "https://www.credly.com/badges/3022a56b-6350-41a2-bb9a-f2a3f995a4f9/public_url",
+      "x_badgeId": "3022a56b-6350-41a2-bb9a-f2a3f995a4f9",
+      "x_imageId": "3be57d7c-55de-4119-9ca9-738e20c0fae0",
+      "x_imageName": "Scrum-Foundation-Professional-Certificate-SFPC-2021_.png"
+    },
+    {
+      "name": "Lifelong Learning",
+      "issuer": "CertiProf",
+      "url": "https://www.credly.com/badges/cdd70ffc-8c5e-45c7-9b91-552d5e0b7a1e/public_url",
+      "x_badgeId": "cdd70ffc-8c5e-45c7-9b91-552d5e0b7a1e",
+      "x_imageId": "f5cf37e4-6ebd-4067-96a9-b26d04f51ff7",
+      "x_imageName": "CertiProf-Badge-LLL.png"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travel Bug",
+      "x_icon": "fa-globe-africa"
+    },
+    {
+      "name": "Football Lover",
+      "x_icon": "far fa-futbol"
+    },
+    {
+      "name": "Foodie",
+      "x_icon": "fa-utensils"
+    },
+    {
+      "name": "Live in the now",
+      "x_icon": "fa-brain"
+    }
+  ]
+}
