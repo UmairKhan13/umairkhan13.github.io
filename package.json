@@ -1,5 +1,6 @@
 {
   "name": "personal-website",
+  "homepage": "https://umairkhan13.github.io/",
   "version": "1.3.3",
   "private": true,
   "dependencies": {
