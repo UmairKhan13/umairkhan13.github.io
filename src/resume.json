@@ -165,6 +165,14 @@
   ],
   "certificates": [
     {
+      "name": "ISTQB Certified Tester Foundation Level (CTFL)",
+      "issuer": "ISTQB",
+      "url": "https://www.credly.com/badges/",
+      "x_badgeId": "",
+      "x_imageId": "12c64ffc-c5af-4be8-8fdc-8de91879be44",
+      "x_imageName": "Brightest_CTFL.png"
+    },
+    {
       "name": "Aviatrix Multicloud Network Associate",
       "issuer": "Aviatrix",
       "url": "https://www.credly.com/badges/3e8d29ad-f57b-4725-a9e8-399d4055d88e/public_url",
