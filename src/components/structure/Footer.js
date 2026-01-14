@@ -14,9 +14,9 @@ function Footer() {
           <img
             width="512"
             height="96"
-            src="https://bulma.io/images/made-with-bulma--semiwhite.png"
+            src="https://bulma.io/assets/images/made-with-bulma--semiwhite.png"
             className="bulma-image"
-            alt=""
+            alt="Made with Bulma"
           />
         </p>
       </div>

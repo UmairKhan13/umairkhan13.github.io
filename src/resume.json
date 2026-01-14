@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "MUHAMMAD UMAIR KHAN",
-    "label": "Automation Engineer", 
+    "label": "Lead QA Automation Engineer", 
 
     "x_title": "Leading the Industry with Innovative Automation Solutions",
     "summary": "Expertly designing and implementing automated solutions for optimal efficiency and productivity. Continuously pushing boundaries with the latest technology and industry trends.",
@@ -33,58 +33,76 @@
   },
   "work": [
     {
+      "company": "STC (Saudi Telecom, Riyadh - Remote)",
+      "position": "Lead QA Automation Engineer - Consultant",
+      "website": "https://www.stc.com.sa/",
+      "startDate": "2024-05-01",
+      "endDate": "",
+      "summary": "Built a hybrid automation framework from scratch, integrating web, mobile, and API testing using Spring Boot, Selenium, Appium, and Rest Assured for STC Play and STC TV Mobile and Web App. Led automation teams for web, mobile, and backend testing. Managed a manual QA team for mobile testing. Set up Jenkins pipelines for daily test execution.",
+      "highlights": [
+        "Built hybrid automation framework from scratch",
+        "Integrated web, mobile, and API testing",
+        "Led automation teams for web, mobile, and backend",
+        "Managed manual QA team for mobile testing",
+        "Set up Jenkins pipelines for daily execution"
+      ]
+    },
+    {
+      "company": "Circadia Health",
+      "position": "Lead QA Automation Engineer",
+      "website": "https://circadiahealth.com/",
+      "startDate": "2023-04-01",
+      "endDate": "2024-05-01",
+      "summary": "Spearheaded end-to-end automation testing initiatives for mobile applications using Appium Selenium and Java TestNG, ensuring thorough test coverage and reliable outcomes.",
+      "highlights": [
+        "Spearheaded end-to-end automation testing",
+        "Used Appium Selenium and Java TestNG",
+        "Ensured thorough test coverage"
+      ]
+    },
+    {
       "company": "Astera Software",
-      "position": "Software Engineer - Test",
+      "position": "Senior Software Engineer - Test",
       "website": "https://www.astera.com/",
-      "startDate": "2022-05-10",
-      "endDate": "",
-      "summary": "Implemented IRawFragment Provider in the backend using .NET Core and built a Test Automation Framework for Desktop Automation using Appium, C# & Microsoft WinAppDriver. Automated smoke and regression cases of a web-based application using Playwright and integrated CI/CD. Led the QA Automation team and monitored task assignments, while participating in resource hiring.",
-      "highlights": []
+      "startDate": "2022-05-01",
+      "endDate": "2023-04-01",
+      "summary": "Building Test Automation Framework for Desktop Automation using Appium, C# & Microsoft WinAppDriver. Created Test scripts using RIDE - Robot Framework Python.",
+      "highlights": [
+        "Built Test Automation Framework for Desktop",
+        "Used Appium, C# & Microsoft WinAppDriver",
+        "Created test scripts using Robot Framework Python"
+      ]
     },
     {
-      "company": "Retrocausal.ai",
-      "position": "Automation Engineer",
-      "website": "https://retrocausal.ai/",
-      "startDate": "2022-02-20",
-      "endDate": "2022-05-10",
-      "summary": "Analyzed business requirements and functional design specifications to ensure all needs were met. Performed manual testing and automated the smoke tests of a web-based application using Selenium Web driver and Python. My automation efforts not only helped to check the high-level functional stability of the application, but also streamlined the regression process with CI/CD, reducing company resources and increasing confidence in release patches for a web-based application..",
-      "highlights": []
-    },
-    {
-      "company": "DepChip",
-      "position": "Assosiate Software Engineer",
-      "website": "https://depchip.com/",
-      "startDate": "2021-06-15",
-      "endDate": "2020-10-10",
-      "summary": "Developed and maintained web applications using HTML, CSS, and JavaScript. Worked closely with UX/UI designers to implement responsive designs and improve user experience. Built reusable and scalable components for the front-end. Utilized JavaScript frameworks such as React and AngularJS to build dynamic user interfaces. Implemented cross-browser compatibility and ensured optimal performance of web applications.",
-      "highlights": []
-    },
-    {
-      "company": "MATZ Solutions",
-      "position": "Junior Software Engineer",
+      "company": "MATZ Solutions / DepChip",
+      "position": "Software Engineer - Test",
       "website": "https://matzsolutions.com/",
-      "startDate": "2020-09-01",
-      "endDate": "2020-09-01",
-      "summary": "Developed and maintained native Android applications using Java and Android Studio. Utilized XML for designing user interface, layouts and animations. Implemented various Android libraries and APIs to enhance the functionality of the application. Collaborated with cross-functional teams to develop and implement innovative solutions for user experience. Worked closely with designers to create custom user interfaces and animations to meet client requirements.",
-      "highlights": []
-    },
-    {
-      "company": "Afiniti",
-      "position": "Software Quality Assurance - Intern",
-      "website": "https://www.afiniti.com/",
-      "startDate": "2020-08-16",
-      "endDate": "",
-      "summary": "Conducted manual testing of various applications to ensure functionality and compatibility. Performed black box and white box testing to validate the system against user requirements. Discovered and reported software bugs and issues, and collaborated with development team to ensure resolution. Documented and maintained test plans, test cases, and bug reports. Contributed to the development of testing strategies and techniques to improve overall quality assurance processes.",
-      "highlights": []
+      "startDate": "2020-01-01",
+      "endDate": "2022-02-01",
+      "summary": "Automated the regression process with Selenium Web driver with Python along with CI/CD, where it required fewer company resources and provided a higher confidence level for release patches in web based application.",
+      "highlights": [
+        "Automated regression with Selenium and Python",
+        "Implemented CI/CD",
+        "Reduced company resources",
+        "Increased confidence for releases"
+      ]
     }
   ],
   "education": [
+    {
+      "institution": "IBA",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2024-01-01",
+      "endDate": "2025-12-01",
+      "courses": []
+    },
     {
       "institution": "FAST NUCES",
       "area": "Computer Science",
       "studyType": "Bachelor",
       "startDate": "2018-08-01",
-      "endDate": "2022-06-10",
+      "endDate": "2022-06-01",
       "courses": [
         "Object Oriented Programming",
         "Database Management Systems",
@@ -151,24 +169,24 @@
       "issuer": "Aviatrix",
       "url": "https://www.credly.com/badges/3e8d29ad-f57b-4725-a9e8-399d4055d88e/public_url",
       "x_badgeId": "3e8d29ad-f57b-4725-a9e8-399d4055d88e",
-      "x_imageId": "87eec792-3c63-4526-aafb-da866a30fa54",
-      "x_imageName": "image.png"
+      "x_imageId": "e3c001fd-161d-433a-a7a4-049556d6112d",
+      "x_imageName": "blob"
     },
     {
       "name": "Scrum Foundation Professional Certificate - SFPC™",
       "issuer": "CertiProf",
       "url": "https://www.credly.com/badges/3022a56b-6350-41a2-bb9a-f2a3f995a4f9/public_url",
       "x_badgeId": "3022a56b-6350-41a2-bb9a-f2a3f995a4f9",
-      "x_imageId": "3be57d7c-55de-4119-9ca9-738e20c0fae0",
-      "x_imageName": "Scrum-Foundation-Professional-Certificate-SFPC-2021_.png"
+      "x_imageId": "4e3d6f9f-55d7-4ea7-b0e6-f4d4ff543e22",
+      "x_imageName": "image.png"
     },
     {
       "name": "Lifelong Learning",
       "issuer": "CertiProf",
       "url": "https://www.credly.com/badges/cdd70ffc-8c5e-45c7-9b91-552d5e0b7a1e/public_url",
       "x_badgeId": "cdd70ffc-8c5e-45c7-9b91-552d5e0b7a1e",
-      "x_imageId": "f5cf37e4-6ebd-4067-96a9-b26d04f51ff7",
-      "x_imageName": "CertiProf-Badge-LLL.png"
+      "x_imageId": "21e16d4d-d2df-46e6-9098-526caab49e63",
+      "x_imageName": "blob"
     }
   ],
   "interests": [
