@@ -1,28 +1,48 @@
 import React from "react";
-import Badge from "../elements/Badge";
 import Resume from "../../resume.json";
+import Section from "../ui/Section";
 
 function AboutMe() {
   return (
-    <section className="section has-background-link" id="aboutMe">
-      <div className="container has-text-centered">
-        <p className="subtitle is-4 has-text-white has-text-weight-bold">
-          {Resume.basics.x_title}
-        </p>
-        <p className="subtitle is-5 has-text-white has-text-weight-light summary-text">
-          {Resume.basics.summary}
-        </p>
-        <div className="container interests">
-          <div className="field is-grouped is-grouped-multiline has-text-centered">
-            {Resume.interests.map((value, index) => {
-              return (
-                <Badge key={index} text={value.name} faIcon={value.x_icon} />
-              );
-            })}
+    <Section
+      id="about"
+      eyebrow="About"
+      title="Quality leadership grounded in systems thinking."
+      description="A senior-level profile built around scalable automation, cross-functional partnership, and a calm, structured approach to product quality."
+    >
+      <div className="about-grid">
+        <div className="about-copy">
+          {Resume.about.intro.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
+
+          <div className="leadership-pillars">
+            {Resume.about.leadershipPillars.map((pillar) => (
+              <article key={pillar.title} className="pillar-card">
+                <h3>{pillar.title}</h3>
+                <p>{pillar.description}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+
+        <div className="about-card surface-card">
+          <p className="about-card-title">What I bring to leadership teams</p>
+          <ul className="feature-list">
+            {Resume.about.strengths.map((strength) => (
+              <li key={strength}>{strength}</li>
+            ))}
+          </ul>
+
+          <div className="about-quote">
+            <p>
+              Quality is most valuable when it is visible, scalable, and trusted
+              by both engineers and decision-makers.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 

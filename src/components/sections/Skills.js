@@ -1,39 +1,30 @@
 import React from "react";
 import Resume from "../../resume.json";
-import Skill from "../elements/Skill"
-
-
-
-function buildSkillsRow(skills, start, end) {
-  const batch = skills.slice(start, end);
-  let skillsComponents = [];
-  batch.forEach((value, indx) => {
-    skillsComponents.push(
-      <div key={indx} className="column is-3">
-        <Skill
-          text={value.name}
-          icon={value.x_icon}
-          description={value.x_description}
-        />
-      </div>
-    )
-  });
-  return skillsComponents;
-}
+import Section from "../ui/Section";
 
 function Skills() {
   return (
-    <section className="section" id="skills">
-      <div className="container">
-        <h1 className="title">Skills</h1>
-        <div className="columns">
-          {buildSkillsRow(Resume.skills, 0, 4)}
-        </div>
-        <div className="columns">
-          {buildSkillsRow(Resume.skills, 4, 8)}
-        </div>
+    <Section
+      id="skills"
+      eyebrow="Capabilities"
+      title="A balanced stack across architecture, tooling, and delivery."
+      description="The focus is not just on tools, but on how they fit into maintainable systems that teams can trust."
+    >
+      <div className="skills-grid">
+        {Resume.skills.map((group) => (
+          <article key={group.category} className="surface-card skill-group">
+            <h3>{group.category}</h3>
+            <div className="badge-row">
+              {group.items.map((item) => (
+                <span key={item} className="skill-badge">
+                  {item}
+                </span>
+              ))}
+            </div>
+          </article>
+        ))}
       </div>
-    </section>
+    </Section>
   );
 }
 

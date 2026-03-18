@@ -1,17 +1,12 @@
 import React from "react";
 
-function CredlyBadge(props) {
-  let imgSrc =
-    "https://images.credly.com/size/" + props.width + "x" + props.height;
-  imgSrc += "/images/" + props.imageId + "/" + props.imageName;
-  let imgLink =
-    "https://www.credly.com/badges/" + props.badgeId + "/public_url";
+function CredlyBadge({ width, height, imageId, imageName, badgeName, url }) {
+  const imageUrl = `https://images.credly.com/size/${width}x${height}/images/${imageId}/${imageName}`;
+
   return (
-    <figure className="is-inline-block image">
-      <a href={imgLink} target="_blank" rel="noopener noreferrer">
-        <img src={imgSrc} alt={props.badgeName} />
-      </a>
-    </figure>
+    <a href={url} target="_blank" rel="noreferrer" className="credential-badge-link">
+      <img src={imageUrl} alt={badgeName} loading="lazy" />
+    </a>
   );
 }
 

@@ -1,54 +1,72 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import Article from "../elements/Article";
+import Section from "../ui/Section";
 
-class Articles extends Component {
-  constructor(props) {
-    super();
-    this.state = { articles: [] };
-  }
+function Articles() {
+  const [articles, setArticles] = useState([]);
+  const [hasError, setHasError] = useState(false);
 
-  componentDidMount() {
-    const devTo = "https://dev.to/api/articles?username=umairkhan13";
+  useEffect(() => {
+    let ignore = false;
 
-    fetch(devTo)
-      .then(response => {
-        return response.json();
-      })
-      .then(data => {
-        let articles = [];
-        data = data.slice(0, 4);
-        data.forEach((element, index) => {
-          articles.push(
-            <div className="column" key={index}>
-              <Article
-                key={index}
-                title={element.title}
-                url={element.url}
-                image={element.cover_image}
-                extract={element.description}
-              />
-            </div>
-          );
-        });
-        var offset = 4 - data.length;
-        for (var i = 0; i < offset; i++) {
-          articles.push(<div className="column"></div>);
+    async function loadArticles() {
+      try {
+        const response = await fetch("https://dev.to/api/articles?username=umairkhan13");
+        const data = await response.json();
+
+        if (!ignore) {
+          setArticles(data.slice(0, 3));
         }
-        this.setState({ articles: articles });
-      });
-  }
+      } catch (error) {
+        if (!ignore) {
+          setHasError(true);
+        }
+      }
+    }
 
-  render() {
-    return (
-      <section className="section" id="articles">
-        <div className="container">
-          <h1 className="title">Articles</h1>
-          <h2 className="subtitle is-4">My latest articles</h2>
-          <div className="columns">{this.state.articles}</div>
-        </div>
-      </section>
-    );
-  }
+    loadArticles();
+
+    return () => {
+      ignore = true;
+    };
+  }, []);
+
+  return (
+    <Section
+      id="writing"
+      eyebrow="Writing"
+      title="Sharing ideas, lessons, and practical automation thinking."
+      description="A strong personal brand also shows how you think. This section keeps the site connected to your latest public writing."
+    >
+      <div className="articles-grid">
+        {articles.map((article) => (
+          <Article
+            key={article.id}
+            title={article.title}
+            url={article.url}
+            image={article.cover_image}
+            extract={article.description}
+            publishedAt={article.published_at}
+          />
+        ))}
+
+        {!articles.length && !hasError ? (
+          <div className="surface-card empty-state">
+            <p>Loading recent writing from DEV Community...</p>
+          </div>
+        ) : null}
+
+        {hasError ? (
+          <div className="surface-card empty-state">
+            <p>
+              Recent articles could not be loaded right now. Your DEV profile can
+              still be reached from the social links above.
+            </p>
+          </div>
+        ) : null}
+      </div>
+    </Section>
+  );
 }
 
 export default Articles;

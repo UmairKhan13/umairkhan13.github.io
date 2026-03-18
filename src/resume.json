@@ -1,51 +1,154 @@
 {
   "basics": {
-    "name": "MUHAMMAD UMAIR KHAN",
-    "label": "Lead QA Automation Engineer", 
-
-    "x_title": "Leading the Industry with Innovative Automation Solutions",
-    "summary": "Expertly designing and implementing automated solutions for optimal efficiency and productivity. Continuously pushing boundaries with the latest technology and industry trends.",
+    "name": "Muhammad Umair Khan",
+    "shortName": "MUK",
+    "label": "QA Automation Architect",
+    "headline": "I architect quality systems that give engineering teams speed, confidence, and executive-level clarity.",
+    "summary": "QA Automation Architect based in Karachi, Pakistan. I lead automation strategy across web, mobile, desktop, and API ecosystems, build durable frameworks from the ground up, and help organizations turn quality into a delivery advantage instead of a release bottleneck.",
     "location": {
       "country": "Pakistan",
       "countryCode": "PK",
       "region": "Karachi"
     },
+    "email": "kmuhammadimair02@gmail.com",
+    "availability": "Currently leading quality architecture at Contour Software since February 2026.",
+    "leadershipNote": "Trusted by product and engineering leaders to bring structure, visibility, and dependable release confidence to complex delivery environments.",
     "profiles": [
-      {
-        "network": "Stack Overflow",
-        "username": "muhammad-umair-khan",
-        "url": "https://stackoverflow.com/users/20954212/muhammad-umair-khan",
-        "x_icon": "fab fa-stack-overflow fa-2x"
-      },
       {
         "network": "LinkedIn",
         "username": "mumairkhan13",
         "url": "https://www.linkedin.com/in/mumairkhan13/",
-        "x_icon": "fab fa-2x fa-linkedin"
+        "icon": "fa-brands fa-linkedin-in"
       },
       {
         "network": "GitHub",
         "username": "UmairKhan13",
         "url": "https://github.com/UmairKhan13",
-        "x_icon": "fab fa-2x fa-github"
+        "icon": "fa-brands fa-github"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "muhammad-umair-khan",
+        "url": "https://stackoverflow.com/users/20954212/muhammad-umair-khan",
+        "icon": "fa-brands fa-stack-overflow"
       }
     ]
   },
+  "about": {
+    "intro": [
+      "I specialize in turning fragmented QA efforts into durable quality platforms that scale with product complexity. My work sits at the intersection of architecture, delivery strategy, test engineering, and organizational enablement.",
+      "Over the last several years, I have led automation initiatives across telecom, healthcare, SaaS, and enterprise tooling, building frameworks from scratch, coaching teams, and creating the systems leaders rely on when release confidence matters."
+    ],
+    "strengths": [
+      "Framework architecture for web, mobile, desktop, and API testing",
+      "Quality strategy for distributed engineering teams and fast release cycles",
+      "CI/CD integration, reporting, and release confidence automation",
+      "Mentoring QA engineers and aligning stakeholders around measurable quality outcomes"
+    ],
+    "leadershipPillars": [
+      {
+        "title": "Architecture",
+        "description": "Designing maintainable automation ecosystems that support scale instead of creating future drag."
+      },
+      {
+        "title": "Leadership",
+        "description": "Guiding QA engineers, influencing stakeholders, and building stronger engineering habits around quality."
+      },
+      {
+        "title": "Impact",
+        "description": "Connecting test strategy to faster releases, clearer visibility, and higher confidence in production readiness."
+      }
+    ],
+    "metrics": [
+      {
+        "value": "6+",
+        "label": "Years building and scaling automation systems"
+      },
+      {
+        "value": "4",
+        "label": "Core test surfaces across modern product stacks"
+      },
+      {
+        "value": "3",
+        "label": "Industries supported with architecture-level QA leadership"
+      },
+      {
+        "value": "Multi-team",
+        "label": "Leadership across distributed automation and QA functions"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Architecture",
+      "items": [
+        "Automation Framework Design",
+        "Test Strategy",
+        "Quality Governance",
+        "Release Readiness"
+      ]
+    },
+    {
+      "category": "Web, Mobile, API",
+      "items": [
+        "Selenium",
+        "Playwright",
+        "Appium",
+        "Rest Assured",
+        "Postman"
+      ]
+    },
+    {
+      "category": "Languages",
+      "items": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "C#",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Delivery Systems",
+      "items": [
+        "Jenkins",
+        "GitLab CI",
+        "Docker",
+        "AWS",
+        "Kubernetes"
+      ]
+    }
+  ],
   "work": [
+    {
+      "company": "Contour Software",
+      "position": "QA Automation Architect",
+      "website": "https://www.contour-software.com/",
+      "startDate": "2026-02-01",
+      "endDate": "",
+      "summary": "Leading quality architecture initiatives, defining automation strategy, and establishing scalable test systems that strengthen release confidence across product teams.",
+      "highlights": [
+        "Defined architecture patterns for scalable automation across multiple products",
+        "Aligned quality engineering practices with business and release objectives",
+        "Established a stronger foundation for maintainable test coverage and faster delivery"
+      ],
+      "impact": "Owning the quality architecture direction and setting the standard for how automation supports product delivery at scale."
+    },
     {
       "company": "STC (Saudi Telecom, Riyadh - Remote)",
       "position": "Lead QA Automation Engineer - Consultant",
       "website": "https://www.stc.com.sa/",
       "startDate": "2024-05-01",
-      "endDate": "",
-      "summary": "Built a hybrid automation framework from scratch, integrating web, mobile, and API testing using Spring Boot, Selenium, Appium, and Rest Assured for STC Play and STC TV Mobile and Web App. Led automation teams for web, mobile, and backend testing. Managed a manual QA team for mobile testing. Set up Jenkins pipelines for daily test execution.",
+      "endDate": "2026-01-01",
+      "summary": "Built a hybrid automation framework from scratch for STC Play and STC TV across web, mobile, and API layers, while leading multiple automation streams and coordinating mobile QA delivery.",
       "highlights": [
-        "Built hybrid automation framework from scratch",
-        "Integrated web, mobile, and API testing",
-        "Led automation teams for web, mobile, and backend",
-        "Managed manual QA team for mobile testing",
-        "Set up Jenkins pipelines for daily execution"
-      ]
+        "Built a hybrid automation framework from the ground up",
+        "Integrated web, mobile, and API testing into one delivery model",
+        "Led web, mobile, and backend automation teams",
+        "Managed a manual QA team focused on mobile quality",
+        "Set up Jenkins pipelines for daily execution and reporting"
+      ],
+      "impact": "Created a unified quality operation for a large-scale digital platform by combining architecture, leadership, and delivery discipline."
     },
     {
       "company": "Circadia Health",
@@ -53,12 +156,13 @@
       "website": "https://circadiahealth.com/",
       "startDate": "2023-04-01",
       "endDate": "2024-05-01",
-      "summary": "Spearheaded end-to-end automation testing initiatives for mobile applications using Appium Selenium and Java TestNG, ensuring thorough test coverage and reliable outcomes.",
+      "summary": "Owned end-to-end automation strategy for mobile healthcare products using Appium, Selenium, Java, and TestNG, improving release confidence for a product with high reliability requirements.",
       "highlights": [
-        "Spearheaded end-to-end automation testing",
-        "Used Appium Selenium and Java TestNG",
-        "Ensured thorough test coverage"
-      ]
+        "Spearheaded end-to-end automation for mobile applications",
+        "Expanded coverage using Appium, Selenium, Java, and TestNG",
+        "Improved stability and confidence for critical healthcare workflows"
+      ],
+      "impact": "Brought stronger rigor and predictability to a healthcare product environment where quality and trust were non-negotiable."
     },
     {
       "company": "Astera Software",
@@ -66,12 +170,13 @@
       "website": "https://www.astera.com/",
       "startDate": "2022-05-01",
       "endDate": "2023-04-01",
-      "summary": "Building Test Automation Framework for Desktop Automation using Appium, C# & Microsoft WinAppDriver. Created Test scripts using RIDE - Robot Framework Python.",
+      "summary": "Built desktop automation capabilities with Appium, C#, and WinAppDriver, and supported test development with Robot Framework for broader product validation.",
       "highlights": [
-        "Built Test Automation Framework for Desktop",
-        "Used Appium, C# & Microsoft WinAppDriver",
-        "Created test scripts using Robot Framework Python"
-      ]
+        "Built desktop automation frameworks for Windows applications",
+        "Used Appium, C#, and Microsoft WinAppDriver",
+        "Created additional coverage with Robot Framework and Python"
+      ],
+      "impact": "Expanded the automation footprint into desktop validation and helped reduce dependence on repetitive manual verification."
     },
     {
       "company": "MATZ Solutions / DepChip",
@@ -79,88 +184,58 @@
       "website": "https://matzsolutions.com/",
       "startDate": "2020-01-01",
       "endDate": "2022-02-01",
-      "summary": "Automated the regression process with Selenium Web driver with Python along with CI/CD, where it required fewer company resources and provided a higher confidence level for release patches in web based application.",
+      "summary": "Automated regression testing for a web-based platform using Selenium and Python, integrating CI/CD to reduce effort and improve confidence in release patches.",
       "highlights": [
-        "Automated regression with Selenium and Python",
-        "Implemented CI/CD",
-        "Reduced company resources",
-        "Increased confidence for releases"
-      ]
+        "Automated regression with Selenium WebDriver and Python",
+        "Integrated automation into CI/CD delivery flows",
+        "Reduced manual effort while improving release confidence"
+      ],
+      "impact": "Helped establish the early foundation for repeatable, automation-driven release practices."
     }
   ],
-  "education": [
+  "projects": [
     {
-      "institution": "IBA",
-      "area": "Computer Science",
-      "studyType": "Master",
-      "startDate": "2024-01-01",
-      "endDate": "2025-12-01",
-      "courses": []
+      "title": "Unified QA Platform",
+      "description": "Brought web, mobile, and API coverage into a single maintainable automation architecture for large-scale digital products with clearer ownership, reporting, and execution discipline.",
+      "outcome": "Turned fragmented testing efforts into a more coherent quality platform that leaders could rely on for release readiness.",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Selenium",
+        "Appium",
+        "Rest Assured",
+        "Jenkins"
+      ],
+      "liveUrl": "https://www.stc.com.sa/",
+      "codeUrl": "https://github.com/UmairKhan13"
     },
     {
-      "institution": "FAST NUCES",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-08-01",
-      "endDate": "2022-06-01",
-      "courses": [
-        "Object Oriented Programming",
-        "Database Management Systems",
-        "Operating systems and computers architectures",
-        "Requirements Engineering"
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "AWS",
-      "x_icon": "fa-brands fa-aws",
-      "x_description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others."
+      "title": "Desktop Automation Framework",
+      "description": "Built framework foundations for Windows-based product validation to improve repeatability, reduce manual effort, and expand the automation surface beyond web-only testing.",
+      "outcome": "Added durable desktop validation capability where automation maturity had previously been limited.",
+      "stack": [
+        "C#",
+        "Appium",
+        "WinAppDriver",
+        "Robot Framework",
+        "Python"
+      ],
+      "liveUrl": "https://www.astera.com/",
+      "codeUrl": "https://github.com/UmairKhan13"
     },
     {
-      "name": "Selenium",
-      "x_icon": "fa-code",
-      "x_description": "Streamlining application testing through the use of Selenium."
-    },
-    {
-      "name": "Playwright",
-      "x_icon": "fa-pencil",
-      "x_description": " Elevating Web Application Testing with Cutting-Edge Automation Technology Playwright."
-    },
-    {
-      "name": "CI/CD",
-      "x_icon": "fa-infinity",
-      "x_description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI."
-    },
-    {
-      "name": "Python",
-      "x_icon": "fa-brands fa-python",
-      "x_description": "Writting deployment tools and scripts, and automating all possible tasks and test cases with Python."
-    },
-    {
-      "name": "J-Meter",
-      "x_icon": "fa-chart-line",
-      "x_description": "Ensuring Optimal User Experience with J-Meter Load Testing."
-    },
-    {
-      "name": "Cypress.io",
-      "x_icon": "fa-bolt",
-      "x_description": "Revolutionizing End-to-End Web Testing with Innovative Approach using Cypress."
-    },
-    {
-      "name": "Containers",
-      "x_icon": "fa-brands fa-docker",
-      "x_description": "Delivering and distributing applications and tools with Docker, docker-compose and kubernetes."
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent speaker"
-    },
-    {
-      "language": "Urdu",
-      "fluency": "Native speaker"
+      "title": "Release Confidence Pipelines",
+      "description": "Designed automated execution pipelines, quality gates, and reporting flows that made release status more visible and gave teams a stronger operational rhythm.",
+      "outcome": "Improved the connection between test execution, decision-making, and delivery confidence.",
+      "stack": [
+        "Jenkins",
+        "GitLab CI",
+        "Docker",
+        "AWS",
+        "Reporting"
+      ],
+      "liveUrl": "https://www.contour-software.com/",
+      "codeUrl": "https://github.com/UmairKhan13"
     }
   ],
   "certificates": [
@@ -168,51 +243,71 @@
       "name": "ISTQB Certified Tester Foundation Level (CTFL)",
       "issuer": "ISTQB",
       "url": "https://www.credly.com/badges/",
-      "x_badgeId": "",
-      "x_imageId": "12c64ffc-c5af-4be8-8fdc-8de91879be44",
-      "x_imageName": "Brightest_CTFL.png"
+      "imageId": "12c64ffc-c5af-4be8-8fdc-8de91879be44",
+      "imageName": "Brightest_CTFL.png"
     },
     {
       "name": "Aviatrix Multicloud Network Associate",
       "issuer": "Aviatrix",
       "url": "https://www.credly.com/badges/3e8d29ad-f57b-4725-a9e8-399d4055d88e/public_url",
-      "x_badgeId": "3e8d29ad-f57b-4725-a9e8-399d4055d88e",
-      "x_imageId": "e3c001fd-161d-433a-a7a4-049556d6112d",
-      "x_imageName": "blob"
+      "imageId": "e3c001fd-161d-433a-a7a4-049556d6112d",
+      "imageName": "blob"
     },
     {
-      "name": "Scrum Foundation Professional Certificate - SFPC™",
+      "name": "Scrum Foundation Professional Certificate - SFPC",
       "issuer": "CertiProf",
       "url": "https://www.credly.com/badges/3022a56b-6350-41a2-bb9a-f2a3f995a4f9/public_url",
-      "x_badgeId": "3022a56b-6350-41a2-bb9a-f2a3f995a4f9",
-      "x_imageId": "4e3d6f9f-55d7-4ea7-b0e6-f4d4ff543e22",
-      "x_imageName": "image.png"
+      "imageId": "4e3d6f9f-55d7-4ea7-b0e6-f4d4ff543e22",
+      "imageName": "image.png"
     },
     {
       "name": "Lifelong Learning",
       "issuer": "CertiProf",
       "url": "https://www.credly.com/badges/cdd70ffc-8c5e-45c7-9b91-552d5e0b7a1e/public_url",
-      "x_badgeId": "cdd70ffc-8c5e-45c7-9b91-552d5e0b7a1e",
-      "x_imageId": "21e16d4d-d2df-46e6-9098-526caab49e63",
-      "x_imageName": "blob"
+      "imageId": "21e16d4d-d2df-46e6-9098-526caab49e63",
+      "imageName": "blob"
     }
   ],
-  "interests": [
+  "education": [
     {
-      "name": "Travel Bug",
-      "x_icon": "fa-globe-africa"
+      "institution": "Institute of Business Administration",
+      "area": "Computer Science",
+      "studyType": "Master of Science (MS)",
+      "detailsLabel": "Course Tracks",
+      "details": [
+        "Machine Learning",
+        "Quantum Programming",
+        "Computer Networks",
+        "Cloud Computing",
+        "Requirement Engineering"
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "2025-12-01"
     },
     {
-      "name": "Football Lover",
-      "x_icon": "far fa-futbol"
+      "institution": "National University of Computer and Emerging Sciences",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science (BS)",
+      "detailsLabel": "Core Courses",
+      "details": [
+        "Object-Oriented Programming",
+        "Database Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Software Engineering"
+      ],
+      "startDate": "2018-08-01",
+      "endDate": "2022-06-01"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
     },
     {
-      "name": "Foodie",
-      "x_icon": "fa-utensils"
-    },
-    {
-      "name": "Live in the now",
-      "x_icon": "fa-brain"
+      "language": "Urdu",
+      "fluency": "Native"
     }
   ]
 }

@@ -1,38 +1,35 @@
 import React from "react";
 
-function Article(props) {
+function formatDate(value) {
+  if (!value) {
+    return "Recent article";
+  }
+
+  return new Intl.DateTimeFormat("en", {
+    month: "short",
+    day: "numeric",
+    year: "numeric"
+  }).format(new Date(value));
+}
+
+function Article({ title, url, image, extract, publishedAt }) {
   return (
-    <div className="card article">
-      <div className="card-header">
-        <a href={props.url} target="blank">
-          <p className="card-header-title">{props.title}</p>
+    <article className="surface-card article-card">
+      {image ? (
+        <a href={url} target="_blank" rel="noreferrer" className="article-image">
+          <img src={image} alt={title} loading="lazy" />
         </a>
-        <a
-          href={props.url}
-          target="blank"
-          className="card-header-icon"
-          aria-label="Dev Community"
-        >
-          <span className="icon">
-            <i className="fab fa-2x fa-dev"></i>
-          </span>
-        </a>
-      </div>
-      <div className="card-image">
-        <figure className="image">
-          <img width="1000" height="420" src={props.image} alt="" />
-        </figure>
-      </div>
-      <div className="card-content">
-        <h1 className="heading">DEV.TO</h1>
-        <div className="content">
-          <p>{props.extract}</p>
-        </div>
-        <a href={props.url} target="blank">
-          Read the full article
+      ) : null}
+
+      <div className="article-body">
+        <p className="article-meta">{formatDate(publishedAt)} on DEV</p>
+        <h3>{title}</h3>
+        <p>{extract}</p>
+        <a href={url} target="_blank" rel="noreferrer" className="article-link">
+          Read article
         </a>
       </div>
-    </div>
+    </article>
   );
 }
 

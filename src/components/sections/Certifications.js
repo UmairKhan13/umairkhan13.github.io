@@ -1,38 +1,33 @@
 import React from "react";
-import CredlyBadge from "../elements/CredlyBadge";
 import Resume from "../../resume.json";
+import CredlyBadge from "../elements/CredlyBadge";
+import Section from "../ui/Section";
 
-function buildBadges(certificates) {
-  let credlyBadges = [];
-  let columnSize = 12 / certificates.length;
-  let columnClass = "column has-text-centered is-" + columnSize;
-  certificates.forEach((cert, index) => {
-    credlyBadges.push(
-      <div key={index} className={columnClass}>
-        <CredlyBadge
-          width="186"
-          height="186"
-          imageId={cert.x_imageId}
-          imageName={cert.x_imageName}
-          badgeId={cert.x_badgeId}
-          badgeName={cert.name + " by " + cert.issuer}
-        />
-      </div>
-    );
-  });
-  return credlyBadges;
-}
-
-function Certifications(props) {
+function Certifications() {
   return (
-    <section className="section" id="certifications">
-      <div className="container">
-        <h1 className="title">Certifications</h1>
-        <div className="columns is-centered">
-          {buildBadges(Resume.certificates)}
-        </div>
+    <Section
+      id="credentials"
+      eyebrow="Credentials"
+      title="Certifications that reinforce the foundation."
+      description="Formal credentials complement hands-on delivery, especially in structured testing, agile practice, and cloud-oriented environments."
+    >
+      <div className="credentials-grid">
+        {Resume.certificates.map((certificate) => (
+          <article key={certificate.name} className="surface-card credential-card">
+            <CredlyBadge
+              width="160"
+              height="160"
+              imageId={certificate.imageId}
+              imageName={certificate.imageName}
+              badgeName={certificate.name}
+              url={certificate.url}
+            />
+            <h3>{certificate.name}</h3>
+            <p>{certificate.issuer}</p>
+          </article>
+        ))}
       </div>
-    </section>
+    </Section>
   );
 }
 
