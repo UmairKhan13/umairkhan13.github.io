@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+# lock file (not needed for a deployed static site)
+package-lock.json
+
+# production build output (deployed separately via gh-pages branch)
+/build
+
 # testing
 /coverage
 
@@ -14,6 +20,9 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Claude Code local project settings
+.claude/
 
 npm-debug.log*
 yarn-debug.log*

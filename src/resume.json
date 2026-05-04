@@ -61,7 +61,7 @@
     ],
     "metrics": [
       {
-        "value": "6+",
+        "value": "8+",
         "label": "Years building and scaling automation systems"
       },
       {
@@ -182,7 +182,7 @@
       "company": "MATZ Solutions / DepChip",
       "position": "Software Engineer - Test",
       "website": "https://matzsolutions.com/",
-      "startDate": "2020-01-01",
+      "startDate": "2018-01-01",
       "endDate": "2022-02-01",
       "summary": "Automated regression testing for a web-based platform using Selenium and Python, integrating CI/CD to reduce effort and improve confidence in release patches.",
       "highlights": [

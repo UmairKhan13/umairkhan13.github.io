@@ -162,7 +162,7 @@ img {
 }
 
 .hero {
-  padding: 5rem 0 3rem;
+  padding: 6rem 0 4.5rem;
 }
 
 .hero-grid {
@@ -197,8 +197,9 @@ img {
 }
 
 .hero-kicker {
-  font-size: 1.12rem;
-  letter-spacing: 0.18em;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
 }
 
 .hero h1,
@@ -213,9 +214,10 @@ img {
 }
 
 .hero h1 {
-  max-width: 12ch;
-  font-size: clamp(2.8rem, 7vw, 5.7rem);
-  line-height: 0.98;
+  max-width: 16ch;
+  margin-top: 0.7rem;
+  font-size: clamp(2rem, 3.6vw, 3.4rem);
+  line-height: 1.1;
 }
 
 .hero-summary,
@@ -233,7 +235,7 @@ img {
 
 .hero-summary {
   max-width: 60ch;
-  margin: 1.35rem 0 0;
+  margin: 1.6rem 0 0;
   font-size: 1.05rem;
 }
 
@@ -812,7 +814,8 @@ body.ready [data-reveal] {
   }
 
   .hero {
-    padding-top: 3.5rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
   }
 
   .hero-copy,
